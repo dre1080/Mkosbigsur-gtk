@@ -862,20 +862,15 @@ notebook {
   notebook > stack:not(:only-child) {
     background-color: #FFFFFF; }
   notebook tab {
-    padding: 6px 20px;
-    border-width: 1px;
-    border-style: solid;
+    padding: 0 10px;
     border-radius: 0;
-    border-color: shade(#FFFFFF, 0.95);
     color: alpha(#000000, 0.5);
-    background-color: shade(#FFFFFF, 0.95); }
+    background-color: #FFFFFF; }
     notebook tab:checked {
-      color: #000000;
-      border-color: shade(#FFFFFF, 0.9);
-      background-color: #FFFFFF; }
+      color: #316ea4;
+      background-color: alpha(#d0e6fc, 0.9); }
       notebook tab:checked:backdrop {
         background-image: none;
-        border-color: shade(#FBFBFB, 0.9);
         background-color: #FBFBFB; }
     notebook tab:backdrop {
       border-color: shade(#FBFBFB, 0.95);
@@ -1516,7 +1511,7 @@ colorchooser #add-color-button {
 
 headerbar {
   min-height: 30px;
-  padding: 12px 14px;
+  padding: 4px 14px;
   border: none;
   border-radius: 0px;
   color: #000000;
@@ -2862,7 +2857,7 @@ read if you used those and something break with a version upgrade you're on your
 
 /************parche by zayronxio***/
 .nautilus-window scrolledwindow {background: white; border-radius: 0px 0px 11px 0px;}
-.nautilus-window decoration {border-radius: 11px;} 
+.nautilus-window decoration {border-radius: 11px;}
 .csd.nautilus-window box separator {background: transparent;}
 
 .nautilus-window  stack box grid {background: transparent; border-radius: 0px 0px 11px 0px;}
@@ -2877,4 +2872,3 @@ read if you used those and something break with a version upgrade you're on your
 .nautilus-window box viewport list {border-radius: 0px 0px 0px 11px;}
 
 .nautilus-window .sidebar-icon {color: #0061fc;}
-
